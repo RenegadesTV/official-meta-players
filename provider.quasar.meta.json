@@ -1,0 +1,18 @@
+{
+    "name": "[COLOR FFD15FEE]Quasar[/COLOR]",
+    "plugin": "plugin.video.quasar",
+    "movies": [
+        [
+            {
+                "link": "plugin://plugin.video.quasar/movie/{tmdb}/play"
+            }
+        ]
+    ],
+    "tvshows": [
+        [
+            {
+                "link": "plugin://plugin.video.quasar/show/{tmdb}/season/{season}/episode/{episode}/play"
+            }
+        ]
+    ]
+}
