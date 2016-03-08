@@ -1,0 +1,17 @@
+{
+    "name": "USTV VoD",
+    "plugin": "plugin.video.ustvvod",
+    "tvshows": [
+        [
+            {
+                "link": "plugin://plugin.video.ustvvod/",
+                "steps": [
+                    "{network_clean}",
+                    "{showname}",
+                    ".*Season {season}",
+                    "{episode}"
+                ]
+            }
+        ]
+    ]
+}
