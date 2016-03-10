@@ -1,6 +1,7 @@
 {
     "name": "USTV VoD",
     "plugin": "plugin.video.ustvvod",
+    "priority": 500,
     "tvshows": [
         [
             {
@@ -8,8 +9,35 @@
                 "steps": [
                     "{network_clean}",
                     "{showname}",
-                    ".*Season {season}",
-                    "{episode}"
+                    "(?:.*Season {season}|Full Episodes)",
+                    "{season}x{episode}"
+                ]
+            },
+            {
+                "link": "plugin://plugin.video.ustvvod/",
+                "steps": [
+                    "{network_clean}",
+                    "{showname}",
+                    "(?:.*Season {season}|Full Episodes)",
+                    "S{season:02d}E{episode:02d} .*"
+                ]
+            },
+            {
+                "link": "plugin://plugin.video.ustvvod/",
+                "steps": [
+                    "Favorite Shows",
+                    "{showname}",
+                    "(?:.*Season {season}|Full Episodes)",
+                    "{season}x{episode}"
+                ]
+            },
+            {
+                "link": "plugin://plugin.video.ustvvod/",
+                "steps": [
+                    "Favorite Shows",
+                    "{showname}",
+                    "(?:.*Season {season}|Full Episodes)",
+                    "S{season:02d}E{episode:02d} .*"
                 ]
             }
         ]
