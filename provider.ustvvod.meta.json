@@ -8,7 +8,7 @@
                 "link": "plugin://plugin.video.ustvvod/",
                 "steps": [
                     "{network_clean}",
-                    "{showname}",
+                    "(?:{showname}|clearname)",
                     "(?:.*Season {season}|Full Episodes)",
                     "{season}x{episode}"
                 ]
@@ -17,7 +17,7 @@
                 "link": "plugin://plugin.video.ustvvod/",
                 "steps": [
                     "{network_clean}",
-                    "{showname}",
+                    "(?:{showname}|clearname)",
                     "(?:.*Season {season}|Full Episodes)",
                     "S{season:02d}E{episode:02d} .*"
                 ]
@@ -26,7 +26,7 @@
                 "link": "plugin://plugin.video.ustvvod/",
                 "steps": [
                     "Favorite Shows",
-                    "{showname}",
+                    "(?:{showname}|clearname)",
                     "(?:.*Season {season}|Full Episodes)",
                     "{season}x{episode}"
                 ]
@@ -35,7 +35,7 @@
                 "link": "plugin://plugin.video.ustvvod/",
                 "steps": [
                     "Favorite Shows",
-                    "{showname}",
+                    "(?:{showname}|clearname)",
                     "(?:.*Season {season}|Full Episodes)",
                     "S{season:02d}E{episode:02d} .*"
                 ]

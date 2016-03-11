@@ -18,8 +18,8 @@
             {
                 "link": "plugin://plugin.video.flix2kodi/?mode=search&thumb&type=show&url",
                 "steps": [
-                    "keyboard: {showname}",
-                    ".*{showname}.*",
+                    "keyboard: {clearname}",
+                    ".*{clearname}.*",
                     ".*Season {season}",
                     "{episode}"
                 ]
