@@ -1,5 +1,5 @@
 {
-    "name": "CBC (direct)",
+    "name": "CBC",
     "plugin": "plugin.video.cbc",
     "movies": [
         [
@@ -8,8 +8,7 @@
                 "steps": [
                     "Movies",
                     ".*{title}"
-                ],
-                "action": "PLAY"
+                ]
             }
         ]
     ],
@@ -21,24 +20,21 @@
                     ".*{clearname}.*",
                     "Season {season}",
                     ".*Episode {episode}$$.*"
-                ],
-                "action": "PLAY"
+                ]
             },
             {
                 "link": "plugin://plugin.video.cbc",
                 "steps": [
                     ".*{clearname}.*",
                     ".*$${episode}"
-                ],
-                "action": "PLAY"
+                ]
             },
             {
                 "link": "plugin://plugin.video.cbc",
                 "steps": [
                     ".*{clearname}.*",
                     ".*{clearname}.*{title}"
-                ],
-                "action": "PLAY"
+                ]
             },
             {
                 "link": "plugin://plugin.video.cbc",
@@ -46,8 +42,7 @@
                     ".*{clearname}.*",
                     ".*Season {season}",
                     ".*{title}.*"
-                ],
-                "action": "PLAY"
+                ]
             },
             {
                 "link": "plugin://plugin.video.cbc",
@@ -55,8 +50,7 @@
                     ".*{clearname}.*",
                     ".*Season {season}",
                     ".*"
-                ],
-                "action": "PLAY"
+                ]
             }
         ]
     ]
