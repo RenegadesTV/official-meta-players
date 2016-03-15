@@ -9,7 +9,7 @@
                     "Movies",
                     ".*{title}"
                 ],
-                "action": "ACTIVATE"
+                "action": "PLAY"
             }
         ]
     ],
