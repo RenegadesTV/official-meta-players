@@ -5,9 +5,8 @@
     "movies": [
         [
             {
-                "link": "plugin://plugin.video.flix2kodi/?mode=search&thumb&type=movie&url",
+                "link": "plugin://plugin.video.flix2kodi/?mode=search&thumb&type=movie&url={title}",
                 "steps": [
-                    "keyboard: {title}",
                     "{title}.*"
                 ]
             }
@@ -16,9 +15,8 @@
     "tvshows": [
         [
             {
-                "link": "plugin://plugin.video.flix2kodi/?mode=search&thumb&type=show&url",
+                "link": "plugin://plugin.video.flix2kodi/?mode=search&thumb&type=show&url={clearname}",
                 "steps": [
-                    "keyboard: {clearname}",
                     ".*{clearname}.*",
                     ".*Season {season}",
                     "{episode}"
