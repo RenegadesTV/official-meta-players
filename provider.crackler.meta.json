@@ -21,6 +21,14 @@
                     "{clearname}.*",
                     "{season}x{episode}"
                 ]
+            },
+            {
+                "link": "plugin://plugin.video.crackler",
+                "steps": [
+                    "TV",
+                    "{clearname}.*",
+                    ".*{title}.*"
+                ]
             }
         ]
     ]
