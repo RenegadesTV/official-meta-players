@@ -13,5 +13,16 @@
                 ]
             }
         ]
+    ],
+    "live": [
+        [
+            {
+                "link": "plugin://plugin.video.iplayerwww",
+                "steps": [
+                    ".*Watch Live",
+                    "{name}($$.*)?"
+                ]
+            }        
+        ]
     ]
 }
