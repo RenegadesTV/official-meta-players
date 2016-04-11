@@ -1,5 +1,6 @@
 {
     "name": "Library",
+    "priority": 0,
     "tvshows": [
         [
             {

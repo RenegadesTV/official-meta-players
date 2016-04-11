@@ -1,5 +1,5 @@
 {
-    "name": "[COLOR FF418106]הערוץ הראשון[/COLOR]",
+    "name": "הערוץ הראשון",
     "plugin": "plugin.video.IBA",
     "filters": {
         "network": "הערוץ הראשון"

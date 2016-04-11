@@ -9,6 +9,13 @@
                     "(?:{clearname}|{clearname|replace(',’)})",
 					"{season}x{episode}"
                 ]
+            },
+            {
+                "link": "plugin://plugin.video.wabc",
+				"steps": [
+                    "(?:{clearname}|{clearname|replace(',’)})",
+					"{title}"
+                ]
             }
         ]
     ]

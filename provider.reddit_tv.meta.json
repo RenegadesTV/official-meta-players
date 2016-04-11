@@ -6,7 +6,7 @@
             {
                 "link": "plugin://plugin.video.reddit_tv/?mode=searchVideos&url=all",
                 "steps":[
-                    "keyboard: {title}",
+                    "@keyboard: {title}",
                     "{title}$$.*"
                 ]
             }              
@@ -17,21 +17,21 @@
             {
                 "link": "plugin://plugin.video.reddit_tv/?mode=searchVideos&url=all",
                 "steps":[
-                    "keyboard: {clearname} Season {season} Episode {episode}",
+                    "@keyboard: {clearname} Season {season} Episode {episode}",
                     "{clearname}$$.*$${season}$$.*$${episode}.*"
                 ]
             },
             {
                 "link": "plugin://plugin.video.reddit_tv/?mode=searchVideos&url=all",
                 "steps":[
-                    "keyboard: {clearname} Season {season}",
+                    "@keyboard: {clearname} Season {season}",
                     "{clearname}$$.*$${season}$$.*"
                 ]
             },
             {
                 "link": "plugin://plugin.video.reddit_tv/?mode=searchVideos&url=all",
                 "steps":[
-                    "keyboard: {clearname}",
+                    "@keyboard: {clearname}",
                     "{clearname}$$.*"
                 ]
             }            

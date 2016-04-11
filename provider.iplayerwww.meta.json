@@ -11,6 +11,15 @@
                     "{showname}.*",                    
                     ".*(?:Series {season}: *{episode}$$|Episode.*$${episode}$$).*"
                 ]
+            },
+            {
+                "link": "plugin://plugin.video.iplayerwww",
+                "steps": [
+                    ".*Programme List A-Z",
+                    "{clearname[4]}",
+                    "{showname}.*",                    
+                    ".*(?:Series {season}: *{episode}$$|Episode.*$${episode}$$).*"
+                ]
             }
         ]
     ],
